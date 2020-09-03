@@ -1,0 +1,937 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-434343">
+            <div class="container-fluid">
+                <button class="navbar-toggler p-0 border-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+                <a class="navbar-brand" href=""><img src="logo.png"></a>
+                <button class="navbar-toggler position-relative p-0 border-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarCart" aria-controls="navbarCart" aria-expanded="false" aria-label="Toggle cart">
+                    <svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                    </svg>
+                    <span id="cart-counter">0</span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarMenu">
+                    <ul class="navbar-nav ml-auto mb-2 mb-sm-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item d-none d-md-flex align-items-center pl-3">
+                            <svg width="24px" height="24px" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar-collapse collapse d-md-none" id="navbarCart">
+                    <div class="p-2">
+                        <p class="text-white">No products in cart</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <h2 class="in_the_glow py-3">
+                            In the glow
+                        </h2>
+                        <div class="categories_box">
+                            <div class="ctg_box_text">
+                                <span>
+                                    Categories
+                                </span>
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </div>
+                            <div class="ctg_box_icon">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="square-image.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="square-image.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="square-image.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100">
+                            <img src="newsletter.png" class="w-100 h-100 image-contain">
+                        </div>
+                    </div>
+                    <div class="col-md-12 my-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2 class="skincare-title">
+                                Skincare
+                            </h2>
+                            <div class="dots">
+                                <svg width="126" height="16" viewBox="0 0 126 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="0.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="15.5" r="0.5" fill="#222222"/>
+                                </svg>                                    
+                            </div>
+                            <div class="view-all-button">
+                                <a href="#" class="skin-view-all">
+                                    View All
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="skincare.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="skincare.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="skincare.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="skincare.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 my-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2 class="skincare-title">
+                                Acne
+                            </h2>
+                            <div class="dots">
+                                <svg width="126" height="16" viewBox="0 0 126 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="0.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="15.5" r="0.5" fill="#222222"/>
+                                </svg>                                    
+                            </div>
+                            <div class="view-all-button">
+                                <a href="#" class="skin-view-all">
+                                    View All
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="acne.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="acne.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="acne.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="acne.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 my-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2 class="skincare-title">
+                                Dermatologist
+                            </h2>
+                            <div class="dots">
+                                <svg width="126" height="16" viewBox="0 0 126 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="0.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="0.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="40.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="80.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="20.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="60.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="100.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="120.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="10.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="50.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="90.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="110.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="30.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="5.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="45.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="85.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="25.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="65.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="70.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="105.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="125.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="15.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="55.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="95.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="115.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="35.5" cy="15.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="0.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="5.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="10.5" r="0.5" fill="#222222"/>
+                                    <circle cx="75.5" cy="15.5" r="0.5" fill="#222222"/>
+                                </svg>                                    
+                            </div>
+                            <div class="view-all-button">
+                                <a href="#" class="skin-view-all">
+                                    View All
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="dermatologist.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="dermatologist.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="dermatologist.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 my-2">
+                        <div class="h-100 bordered-card">
+                            <div class="sqaure-image">
+                                <img src="dermatologist.png" alt="Image">
+                            </div>
+                            <div class="mycard-details">
+                                <div class="acne-tags">
+                                    <span class="acne-text">
+                                        Acne
+                                    </span>
+                                    <span class="acne-separator">
+                                        <svg width="16" height="2" viewBox="0 0 16 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="16" height="2" fill="#F9DBD0"/>
+                                        </svg>                                            
+                                    </span>
+                                    <span class="acne-date">
+                                        13/06/2020
+                                    </span>
+                                </div>
+                                <h3 class="definite-title">
+                                    Your definitive guide to hormonal Acne.
+                                </h3>
+                                <p class="definite-desc">
+                                    Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor aenean.
+                                </p>
+                                <div class="definite-links">
+                                    <a href="#" class="read-more-text">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    </body>
+ </html>

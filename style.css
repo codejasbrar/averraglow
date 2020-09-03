@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FreightDispProBook';
+    src: url('FreightDispProBook-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FreightDispProSemibold';
+    src: url('FreightDispProSemibold-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Stellar';
+    src: url('Stellar-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Stellar';
+    src: url('Stellar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Stellar';
+    src: url('Stellar-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Stellar';
+    src: url('Stellar-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.bg-434343 {
+    background-color: #434343;
+}
+.bg-434343 .navbar-toggler-icon {
+    color: #F9DBD0;
+}
+.bg-434343 .bi {
+    fill: #F9DBD0;
+}
+#cart-counter {
+    position: absolute;
+    top: -5px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #434343;
+    background: #F9DBD0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -5px;
+}
+.in_the_glow {
+    font-family: Stellar;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.categories_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    padding: 0;
+    text-transform: uppercase;
+}
+.categories_box svg {
+    fill: #000;
+    vertical-align: text-top;
+}
+.ctg_box_text {
+    padding: 8px 12px;
+    width: calc(100% - 50px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.ctg_box_icon {
+    width: 49px;
+    border-left: 1px solid #000;
+    text-align: center;
+    padding: 8px 0px;
+}
+.bordered-card {
+    border: 1px solid #000;
+}
+.sqaure-image {
+    width: 100%;
+    position: relative;
+}
+.sqaure-image img {
+    width: 100%;
+}
+.mycard-details {
+    padding: 20px;
+}
+span.acne-text {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #555555;
+}
+.acne-separator {
+    margin: 0 6px;
+}
+.acne-date {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+.acne-tags {
+    padding-bottom: 10px;
+}
+.definite-title {
+    font-family: FreightDispProBook-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #222;
+    line-height: 1.3;
+    padding-bottom: 2px;
+}
+.definite-desc {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #777;
+}
+.read-more-text {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #222222;
+}
+@media (min-width: 576px) {
+    #navbarCart {
+        display: none!important;
+    }
+}
+.image-cover {
+    object-fit: cover;
+}
+.image-contain {
+    object-fit: contain;
+}
+.skincare-title {
+    font-family: FreightDispProBold-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    color: #222;
+}
+.skin-view-all {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #555555;
+}
+.dots {
+    width: 126px;
+    max-width: 30%;
+}
+.dots svg {
+    width: 100%;
+}
