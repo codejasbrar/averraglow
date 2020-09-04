@@ -183,6 +183,9 @@ span.acne-text {
     line-height: 16px;
     text-transform: uppercase;
     color: #222222;
+    text-decoration: none;
+    border-bottom: 1px solid #F9DBD0;
+    padding-bottom: 4px;
 }
 @media (min-width: 576px) {
     #navbarCart {
@@ -217,4 +220,69 @@ span.acne-text {
 }
 .dots svg {
     width: 100%;
+}
+.footer-link {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #363636;
+}
+.footer-link p {
+    text-transform: none;
+    font-weight: 400;
+}
+.footer-title {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 0;
+}
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.footer-get-in-touch {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 0;
+}
+.footer-email {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-email a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-we-respect,
+.footer-secured-text {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer-logos {
+    display: flex;
+    justify-content: space-between;
+    max-width: 320px;
+    margin: 0 auto 20px auto;
 }
