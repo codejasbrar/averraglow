@@ -104,6 +104,7 @@
     color: #000;
     padding: 0;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .categories_box svg {
     fill: #000;
@@ -136,7 +137,7 @@
 .mycard-details {
     padding: 20px;
 }
-span.acne-text {
+.acne-text {
     font-family: Gotham;
     font-style: normal;
     font-weight: normal;
@@ -285,4 +286,162 @@ span.acne-text {
     justify-content: space-between;
     max-width: 320px;
     margin: 0 auto 20px auto;
+}
+.bg-fdeae4 {
+    background-color: #FDEAE4;
+    background-image: url(girl-newsletter.png);
+    background-size: cover;
+    padding-top: 120px;
+}
+.subscribe-to {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222222;
+}
+.weekly-skincare {
+    font-family: FreightDispProBook-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 16px;
+}
+.input-email {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    width: 100%;
+    border: 0;
+    padding: 12px 20px;
+    margin: 10px auto;
+}
+.input-submit {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #FFFFFF;
+    width: 100%;
+    border: 0;
+    padding: 12px 20px;
+    margin: 10px auto;
+}
+.newsletter-form {
+    display: block;
+}
+.categories_content {
+    background: #F7F7F7;
+    padding: 15px;
+}
+.categories_links_title {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.categories_links {
+    padding: 0;
+}
+.categories_link {
+    list-style: none;
+    display: flex;
+}
+.categories_link a {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+    transform: translateY(28px);
+    margin-left: 6px;
+}
+.categories-separator {
+    display: inline-block;
+    border-left: 1px solid #555;
+    border-bottom: 1px solid #555;
+    height: 40px;
+    width: 16px;
+}
+.categories_links :first-child .categories-separator {
+    height: 16px;
+}
+.categories_links :first-child a {
+    height: 16px;
+    transform: translateY(4px);
+}
+.hide {
+    display: none;
+}
+.bg-434343 .navbar-toggler {
+    outline: none;
+    box-shadow: none;
+}
+.ctg_box_text .bi-chevron-up {
+    display: none;
+}
+.ctg_box_text.active .bi-chevron-up {
+    display: block;
+}
+.ctg_box_text.active .bi-chevron-down {
+    display: none;
+}
+.pink-bordered {
+    border: 2px solid #F9DBD0;
+    border-bottom: 0px solid #F9DBD0;
+}
+.pink-bordered-last {
+    border-bottom: 2px solid #F9DBD0;
+}
+.most-popular-title {
+    font-family: FreightDispProBold-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 51px;
+    color: #F9DBD0;
+    text-align: center;
+    background: #fff;
+    display: inline-block;
+    margin-top: -20px;
+    padding: 10px 15px;
+    transform: translateY(40px);
+}
+.pink-bordered .sqaure-image {
+    padding: 25px 25px 0 25px;
+}
+.pink-bordered .mycard-details {
+    padding: 25px;
+}
+.pink-bordered .definite-title {
+    font-family: FreightDispProBook-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222222;
+}
+@media (min-width: 768px) {
+    .pink-bordered {
+        border-bottom: 2px solid #F9DBD0;
+    }
 }
